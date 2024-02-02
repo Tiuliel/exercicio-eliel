@@ -1,13 +1,17 @@
 import Link from "next/link";
 import styled from "styled-components";
 import Menu from "./Menu";
+import Image from "next/image";
 
 export default function Cabecalho() {
   return (
     <StyledHeader>
       <div className="limitador">
         <h1>
-          <Link href="/">Blog do @TiuLiel</Link>
+          <Link href="/">
+            <Image src="/images/blogg.png" width={48} height={48} alt="blog" />
+            Blog do @TiuLiel
+          </Link>
         </h1>
         <Menu />
       </div>

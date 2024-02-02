@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <link
           rel="shortcut icon"
-          href="/images/blog.png"
+          href="/images/blogg.png"
           type="image/png"
           sizes="512x512"
         />
