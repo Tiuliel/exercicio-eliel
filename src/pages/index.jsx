@@ -4,7 +4,7 @@ import serverApi from "./api/server";
 
 export async function getStaticProps() {
   try {
-    const resposta = await fetch(`${serverApi}`);
+    const resposta = await fetch(`${serverApi}/posts`);
     const dados = await resposta.json();
 
     if (!resposta.ok) {

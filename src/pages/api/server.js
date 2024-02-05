@@ -1,2 +1,2 @@
-const serverApi = `https://jsonplaceholder.typicode.com/posts`;
+const serverApi = `https://jsonplaceholder.typicode.com/`;
 export default serverApi;
