@@ -32,7 +32,7 @@ export default function Home({ dados }) {
         <meta name="keywords" content="noticia para todo tipo de gente" />
       </Head>
       <StyledHome>
-        <h1>Notícias recentes</h1>
+        <h1>Notícias recentes: {teste.length}</h1>
         {teste.map((noticia) => (
           <div key={noticia.id}>
             <p>{noticia.title}</p>
